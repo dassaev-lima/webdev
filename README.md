@@ -1,6 +1,6 @@
 <div align="center">
         <a href="">
-            <img src="https://user-images.githubusercontent.com/48656494/171645977-0bb3ef9d-c660-437e-9197-000107d54c07.png" alt="Logomarca Immobile" width="320px" height="80px">
+            <img src="https://user-images.githubusercontent.com/48656494/171682243-61dd2654-14df-4eb7-906d-6b8cfc40d27a.png" alt="Logomarca Immobile" width="320px" height="70px">
         </a><br><br>
         <img
             src="https://img.shields.io/static/v1?label=Frontend&message=Html&color=1ca7e1&style=for-the-badge&logo=ghost" />
