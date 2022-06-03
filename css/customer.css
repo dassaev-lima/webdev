@@ -127,3 +127,9 @@ text-decoration: none;
 .myaccordion .btn-link:focus {
 text-decoration: none;
 }
+
+/* Item menu style */
+.list-group-item a{
+    text-decoration: none;
+    color:white
+}
