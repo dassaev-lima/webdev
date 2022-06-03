@@ -1,48 +1,51 @@
 /* Main style */
-.bg-blue-dark-700{
+.bg-blue-dark-700 {
     background-color: #1c2e4a ;
 }
-.bg-blue-dark-900{
+.bg-blue-dark-900 {
     background-color: #152238 ;
 }
-.text-blue-dark{
+.text-blue-dark {
     color:#1c2e4a
 }
-.text-blue-light{
+.text-blue-light {
     color:#335489
 }
-.text-bold, .active{
+.bg-dark-grey {
+    background-color: #eaeaea
+}
+.text-bold, .active {
     font-weight: 700;
 }
-.text-semi-bold{
+.text-semi-bold {
     font-weight: 600;
 }
 .bg-light-grey{
     background-color: #e5e5e5;
 }
-.form-control{
+.form-control {
     border-top: none;
     border-left: none;
     border-right: none;
     border-radius:0px ;
 }
-.opacity{
+.opacity {
     opacity: 80%;
 }
-.btn{
+.btn {
     padding-top: 0.4em ;
     padding-bottom: 0.4em;
 }
-.btn-light{
+.btn-light {
     background-color: white;
     border:1px solid #e5e5e5;
     color: black;
 }
-.rounded-pill{
+.rounded-pill {
     border-radius:50%
 }
 
-#content-wrapper{
+#content-wrapper {
     background-color: #f5f5f5 !important;
 }
 
@@ -60,23 +63,23 @@ border-radius: 10px;
 }
 
 /* input checkbox Styles */
-.custom-checkbox input{
+.custom-checkbox input {
     display: none;
 }
-.custom-checkbox input + label:before{
+.custom-checkbox input + label:before {
     content: '';
-    width: 18px;
-    height: 18px;
-    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
     background-color: white;
     display: inline-block;
     border:1px solid grey;
     vertical-align: middle;
     margin-right: 8px;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
 }
 
-.custom-checkbox input:checked + label:before{
+.custom-checkbox input:checked + label:before {
     background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
     background-color: #0dcaf0;
     background-position: center;
@@ -84,33 +87,43 @@ border-radius: 10px;
     padding: 1px;
 }
 
-.custom-checkbox input:checked + label{
+.custom-checkbox input:checked + label {
     font-weight: bold;
 }
 
-/* Acordion Styles */
+body {
+    background: #F9F9F9;
+}
 
-.faq-section .mb-0 > a {
-    display: block;
-    position: relative;
-  }
-  
-  .faq-section .mb-0 > a:after {
-    content: "\f067";
-    font-family: "Font Awesome 5 Free";
-    position: absolute;
-    right: 0;
-    font-weight: 600;
-  }
-  
-  .faq-section .mb-0 > a[aria-expanded="true"]:after {
-    content: "\f068";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-  }
+/* accordion style */
 
-  @media only screen and (max-width: 767px) {
-    .icon-colapse{
-        display: none;
-    }
+.myaccordion {
+margin: 0px auto;
+box-shadow: 0 0 1px rgba(0,0,0,0.1);
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+border: none;
+}
+
+.myaccordion .card-header {
+border-bottom-color: #EDEFF0;
+}
+
+.myaccordion .fa-stack {
+font-size: 18px;
+}
+
+.myaccordion .btn {
+width: 100%;
+font-weight: bold;
+color: #1c2e4a;
+padding: 0;
+text-decoration: none;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+text-decoration: none;
 }
