@@ -28,6 +28,6 @@
 - Agora é só  abrir o arquivo index.html no seu navegador localmente
 
 ### Acessar Online - Netlify
- <a href="">
+ <a href="https://webdev-dassaev.netlify.app" targer="_blank">
      https://webdev-dassaev.netlify.app
  </a>
