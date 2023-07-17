@@ -10,24 +10,21 @@
             src="https://img.shields.io/static/v1?label=Frontend&message=Javascript&color=1ca7e1&style=for-the-badge&logo=ghost" />
     </div>
     </div>
-    
-### Desafio Webdev
- <p> 
-  Criar de forma responsiva a interface da página de Utilizador do sistema Webdev a partir do 
-  <a href="https://github.com/dassaev-lima/webdev/tree/master/assets/imgs/layout-webdev.jpg">layout</a> definido.
- </p>
- <!-- <img src="https://user-images.githubusercontent.com/48656494/171649396-d481748f-d224-41b0-b795-86e3db517fb8.jpg" alt="Logomarca Immobile" width="100%" height="600px">-->
 
-### Como usar
+## :spiral_notepad: About project webdev challenge
+
+> Create the responsive interface of the webdev system based in to <a href="https://github.com/dassaev-lima/webdev/tree/master/assets/imgs/layout-webdev.jpg">layout</a>
+
+### How to use
 
 <pre class="notranslate">
   <code>$ git clone https://github.com/dassaev-lima/webdev
   $ cd webdev</code>
 </pre>
 
-- Agora é só  abrir o arquivo index.html no seu navegador localmente
+- Now just open the index.html file in your browser locally
 
-### Acessar Online - Netlify
+### Access Online - Netlify
  <a href="https://webdev-dassaev.netlify.app" targer="_blank">
      https://webdev-dassaev.netlify.app
  </a>
